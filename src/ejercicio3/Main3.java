@@ -13,12 +13,12 @@ class DerivadaPrivada extends BasePrivada {
         // ERROR DE COMPILACIÓN si se descomenta:
         // System.out.println(super.secreto); // 'secreto' tiene acceso privado en BasePrivada
 
-        // Forma correcta mediante metodo público heredado:
+        // Forma correcta mediante método público heredado:
         System.out.println("Accediendo correctamente vía getter: " + super.getSecreto());
     }
 }
 
-public class Main6 {
+public class Main3 {
     public static void main(String[] args) {
         // 1. Uso fuera de una clase derivada:
         // ERROR DE COMPILACIÓN si se descomenta:
