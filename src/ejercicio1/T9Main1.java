@@ -1,6 +1,6 @@
 package ejercicio1;
 
-public class Main1 {
+public class T9Main1 {
     public static void main(String[] args) {
         Persona persona = new Persona("Carlos Gómez", 30);
         Empleado empleado = new Empleado("Ana Martínez", 26, "Desarrollo de Software");
